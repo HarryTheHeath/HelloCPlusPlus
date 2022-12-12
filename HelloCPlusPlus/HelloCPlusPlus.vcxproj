@@ -154,7 +154,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Constructor.cpp" />
+    <ClCompile Include="Enum.cpp" />
     <ClCompile Include="HelloCPlusPlus.cpp" />
+    <ClCompile Include="IntLibrary.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constructor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
